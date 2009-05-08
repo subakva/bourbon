@@ -1,0 +1,5 @@
+= Bourbon
+
+Bourbon is an extension to the Sinatra web application framework which
+integrates the Liquid template engine into the standard Sinatra template
+rendering system.

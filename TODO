@@ -1,0 +1,9 @@
+1. Make the World a Better Place
+    A. Fork Sinatra and add the ability to extend the template engine without
+       any meta-hackery.
+    B. Convert this to use the Sinatra template extension hooks (once they
+       exist).
+
+2. Test Without Duplication
+    A. Figure out why the classic test implementation doesn't auto-load the
+       taster module and remove the duplicate routes, templates, and filters.
