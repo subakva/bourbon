@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
   s.name = 'bourbon'
-  s.version = '0.1.0'
-  s.date = '2009-04-25'
+  s.version = '0.1.1'
+  s.date = '2009-05-08'
 
   s.description = "Liquid support for Sinatra"
   s.summary     = "Liquid support for Sinatra"
@@ -20,8 +20,6 @@ Gem::Specification.new do |s|
     TODO
     Rakefile
     lib/sinatra/bourbon.rb
-    lib/sinatra/extension.rb
-    lib/sinatra/monkey_patch.rb
     bourbon.gemspec
     test/app/classic.rb
     test/app/modular.rb

@@ -1,9 +1,8 @@
 require 'sinatra'
+require 'sinatra/bourbon'
 
 # I'm missing something here. It should be loading the routes and helpers, but all I see are 404s..
-# require 'taster'
-
-require 'sinatra/bourbon'
+# require File.join(File.dirname(__FILE__), 'taster')
 
 before do
   @name = 'Frank'
